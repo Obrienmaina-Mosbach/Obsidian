@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    overflow: hidden; /* Clear floats */
+}
+
+.left {
+    float: left;
+    width: 50%;
+    background-color: lightcoral;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    background-color: lightgreen;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Clearfix for container */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

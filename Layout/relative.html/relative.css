@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
