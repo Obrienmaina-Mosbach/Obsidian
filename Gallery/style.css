@@ -15,11 +15,13 @@ body {
     display: inline-block;
     border: 2px solid #ccc;
     border-radius: 8px;
+    
   }
   
   .image-container img {
     width: 300px;
     transition: transform 0.3s ease; /* Smooth hover effect */
+    flex-direction: row;
   }
   
   /* Hover Effect */
